@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DigitalFeedback_UCW.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title>UCW17 Digital Feedback System V 0.1</title>
+    </head>
+<body class="bck2">
+    <form id="form1" runat="server">
+               <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <div><p>&copy; <%: DateTime.Now.Year %> PET-iCT EM</p></div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
